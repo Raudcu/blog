@@ -7,7 +7,7 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: Four parameters and an elephant
-description: "With four parameters I can fit an elephant and with five I can make him wiggle his trunk. —John von Neumann, cited by Enrico Fermi in Nature 427"
+description: "With four parameters I can fit an elephant and with five I can make him wiggle his trunk. -John von Neumann, cited by Enrico Fermi in Nature 427"
 github_username: Raudcu
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "blog"
@@ -49,7 +49,7 @@ use_math:
 show_description: true
 
 # Set this to true to display image previews on home page, if they exist
-show_image: false
+show_image: true
 
 # Set this to true to turn on annotations with hypothes.is (https://web.hypothes.is/)
 annotations: false
@@ -72,7 +72,7 @@ include:
 # This specifies what badges are turned on by default for notebook posts.
 default_badges:
   github: true
-  binder: true
+  binder: false
   colab: true
 
 # Escape HTML in post descriptions
