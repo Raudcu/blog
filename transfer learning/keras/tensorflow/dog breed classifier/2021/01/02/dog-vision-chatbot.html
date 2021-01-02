@@ -10,8 +10,8 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Tackling the Stanford’s Dog Dataset with Transfer Learning using TensorFlow+Keras and deploying the model with Telegram" />
 <meta property="og:description" content="Tackling the Stanford’s Dog Dataset with Transfer Learning using TensorFlow+Keras and deploying the model with Telegram" />
-<link rel="canonical" href="https://raudcu.github.io/blog/transfer%20learning/keras/tensor%20flow/2021/01/02/dog-vision-chatbot.html" />
-<meta property="og:url" content="https://raudcu.github.io/blog/transfer%20learning/keras/tensor%20flow/2021/01/02/dog-vision-chatbot.html" />
+<link rel="canonical" href="https://raudcu.github.io/blog/transfer%20learning/keras/tensorflow/dog%20breed%20classifier/2021/01/02/dog-vision-chatbot.html" />
+<meta property="og:url" content="https://raudcu.github.io/blog/transfer%20learning/keras/tensorflow/dog%20breed%20classifier/2021/01/02/dog-vision-chatbot.html" />
 <meta property="og:site_name" content="Four parameters and an elephant" />
 <meta property="og:image" content="https://raudcu.github.io/blog/images/dog-vision-chatbot/dog-vision-chatbot.png" />
 <meta property="og:type" content="article" />
@@ -20,7 +20,7 @@
 <meta property="twitter:image" content="https://raudcu.github.io/blog/images/dog-vision-chatbot/dog-vision-chatbot.png" />
 <meta property="twitter:title" content="Dog vision chatbot" />
 <script type="application/ld+json">
-{"headline":"Dog vision chatbot","dateModified":"2021-01-02T00:00:00-06:00","datePublished":"2021-01-02T00:00:00-06:00","url":"https://raudcu.github.io/blog/transfer%20learning/keras/tensor%20flow/2021/01/02/dog-vision-chatbot.html","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://raudcu.github.io/blog/transfer%20learning/keras/tensor%20flow/2021/01/02/dog-vision-chatbot.html"},"image":"https://raudcu.github.io/blog/images/dog-vision-chatbot/dog-vision-chatbot.png","description":"Tackling the Stanford’s Dog Dataset with Transfer Learning using TensorFlow+Keras and deploying the model with Telegram","@context":"https://schema.org"}</script>
+{"headline":"Dog vision chatbot","dateModified":"2021-01-02T00:00:00-06:00","datePublished":"2021-01-02T00:00:00-06:00","url":"https://raudcu.github.io/blog/transfer%20learning/keras/tensorflow/dog%20breed%20classifier/2021/01/02/dog-vision-chatbot.html","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://raudcu.github.io/blog/transfer%20learning/keras/tensorflow/dog%20breed%20classifier/2021/01/02/dog-vision-chatbot.html"},"image":"https://raudcu.github.io/blog/images/dog-vision-chatbot/dog-vision-chatbot.png","description":"Tackling the Stanford’s Dog Dataset with Transfer Learning using TensorFlow+Keras and deploying the model with Telegram","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://raudcu.github.io/blog/feed.xml" title="Four parameters and an elephant" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -94,7 +94,10 @@ window.onload = wrap_img;
         <a class="category-tags-link" href="/blog/categories/#keras">keras</a>
         &nbsp;
       
-        <a class="category-tags-link" href="/blog/categories/#tensor flow">tensor flow</a>
+        <a class="category-tags-link" href="/blog/categories/#tensorflow">tensorflow</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/blog/categories/#dog breed classifier">dog breed classifier</a>
         
       
       </p>
@@ -131,7 +134,7 @@ window.onload = wrap_img;
         
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Overview">Overview<a class="anchor-link" href="#Overview"> </a></h1><p>The goal of this project is to build a Telegram bot capable of telling a dog's breed from a photo of it.</p>
+<h2 id="Overview">Overview<a class="anchor-link" href="#Overview"> </a></h2><p>The goal of this project is to build a Telegram bot capable of telling a dog's breed from a photo of it.</p>
 <p>To do this, I'll be using data from the <a href="https://www.kaggle.com/c/dog-breed-identification/data">Kaggle dog breed identification competition</a>. It consists of a collection of 10,000+ labelled images of 120 different dog breeds.</p>
 <p>For the model, I'm going to use a pretrained deep learning model from TensorFlow Hub (I'll be using TensorFlow to train a model leveraging Transfert Learning).</p>
 <p>For the first part (getting data ready and training the model) I'm going to elaborate further (a lot) on a hands-on project from the zerotomastery <a href="https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/">Machine Learning Course</a>.</p>
@@ -152,7 +155,7 @@ window.onload = wrap_img;
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script><a class="u-url" href="/blog/transfer%20learning/keras/tensor%20flow/2021/01/02/dog-vision-chatbot.html" hidden></a>
+</script><a class="u-url" href="/blog/transfer%20learning/keras/tensorflow/dog%20breed%20classifier/2021/01/02/dog-vision-chatbot.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
