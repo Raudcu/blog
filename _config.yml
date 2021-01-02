@@ -6,8 +6,8 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: \"With four parameters I can fit an elephant...
-description: An easy to use blogging platform with support for Jupyter Notebooks.
+title: Four parameters and an elephant
+description: With four parameters I can fit an elephant and with five I can make him wiggle his trunk. —John von Neumann, cited by Enrico Fermi in Nature 427
 github_username: Raudcu
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "blog"
@@ -39,8 +39,8 @@ baseurl: "/blog" # the subpath of your site, e.g. "/blog".
 # Github and twitter are optional:
 minima:
   social_links:
-    twitter: fastdotai
-    github: fastai
+    github: raudcu
+    linkedin: lucaspili
 
 # Set this to true to get LaTeX math equation support
 use_math: 
