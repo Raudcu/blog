@@ -6,7 +6,7 @@
 
 https://Raudcu.github.io/blog/
 
-# My Blog
+# My Coding and Data Science blog
 
 
 _powered by [fastpages](https://github.com/fastai/fastpages)_
