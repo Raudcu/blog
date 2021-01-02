@@ -7,7 +7,7 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: Four parameters and an elephant
-description: With four parameters I can fit an elephant and with five I can make him wiggle his trunk. —John von Neumann, cited by Enrico Fermi in Nature 427
+description: "With four parameters I can fit an elephant and with five I can make him wiggle his trunk. —John von Neumann, cited by Enrico Fermi in Nature 427"
 github_username: Raudcu
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "blog"
