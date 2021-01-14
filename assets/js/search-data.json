@@ -4,8 +4,8 @@
         "post0": {
             "title": "Dog vision chatbot",
             "content": "Overview . The goal of this project is to build a Telegram bot capable of telling a dog&#39;s breed from a photo of it. . To do this, I&#39;ll be using data from the Kaggle dog breed identification competition. It consists of a collection of 10,000+ labelled images of 120 different dog breeds. . For the model, I&#39;m going to use a pretrained deep learning model from TensorFlow Hub (I&#39;ll be using TensorFlow to train a model leveraging Transfert Learning). . For the first part (getting data ready and training the model) I&#39;m going to elaborate further (a lot) on a hands-on project from the zerotomastery Machine Learning Course. . For building the bot I&#39;ll follow this great post. . Data .",
-            "url": "https://raudcu.github.io/blog/2021/01/02/dog-vision-chatbot.html",
-            "relUrl": "/2021/01/02/dog-vision-chatbot.html",
+            "url": "https://raudcu.github.io/blog/tensorflow/keras/transfer%20learning/dog%20breeds/2021/01/02/dog-vision-chatbot.html",
+            "relUrl": "/tensorflow/keras/transfer%20learning/dog%20breeds/2021/01/02/dog-vision-chatbot.html",
             "date": " • Jan 2, 2021"
         }
         
