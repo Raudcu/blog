@@ -29,7 +29,7 @@
   
       ,"page1": {
           "title": "About Me",
-          "content": "HOLA ![chi2](https://raw.githubusercontent.com/Raudcu/blog/master/images/me.jpg) . This site was built using Fastpages by Hamel Husain .",
+          "content": "HOLA . This site was built using Fastpages by Hamel Husain .",
           "url": "https://raudcu.github.io/blog/about/",
           "relUrl": "/about/",
           "date": ""
