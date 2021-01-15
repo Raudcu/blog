@@ -4,8 +4,20 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+<div style="float: left; width: 50%;">
+    
+1. Calcular el estadístico de prueba $X^2$.
+2. Determinar los grados de libertad **df**.
+3. Seleccionar el **nivel de significancia** para el test.
+    
+</div>
+
+<div style="float: right; width: 50%;">
+
+![chi2](chi2.jpg)
+    
+</div>
 
 
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+---
+*This site was built using [Fastpages](https://github.com/fastai/fastpages) by [Hamel Husain](https://github.com/hamelsmu)*
