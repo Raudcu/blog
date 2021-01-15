@@ -29,7 +29,7 @@
   
       ,"page1": {
           "title": "About Me",
-          "content": "This website is powered by fastpages 1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
+          "content": "1. Calcular el estadístico de prueba $X^2$. 2. Determinar los grados de libertad **df**. 3. Seleccionar el **nivel de significancia** para el test. ![chi2](chi2.jpg) . This site was built using Fastpages by Hamel Husain .",
           "url": "https://raudcu.github.io/blog/about/",
           "relUrl": "/about/",
           "date": ""
