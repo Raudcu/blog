@@ -29,7 +29,7 @@
   
       ,"page1": {
           "title": "About Me",
-          "content": "1. Calcular el estadístico de prueba $X^2$. 2. Determinar los grados de libertad **df**. 3. Seleccionar el **nivel de significancia** para el test. ![chi2]((https://raw.githubusercontent.com/Raudcu/blog/master/images/me.jpg)) . This site was built using Fastpages by Hamel Husain .",
+          "content": "HOLA ![chi2](https://raw.githubusercontent.com/Raudcu/blog/master/images/me.jpg) . This site was built using Fastpages by Hamel Husain .",
           "url": "https://raudcu.github.io/blog/about/",
           "relUrl": "/about/",
           "date": ""
