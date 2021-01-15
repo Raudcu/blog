@@ -12,7 +12,7 @@ HOLA
 
 <div style="float: right; width: 50%;">
 
-![chi2](https://raw.githubusercontent.com/Raudcu/blog/master/images/me.jpg)
+<img src="https://raw.githubusercontent.com/Raudcu/blog/master/images/me.jpg">
     
 </div>
 
