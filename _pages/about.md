@@ -14,7 +14,7 @@ permalink: /about/
 
 <div style="float: right; width: 50%;">
 
-![chi2](chi2.jpg)
+![chi2]((https://raw.githubusercontent.com/Raudcu/blog/master/images/me.jpg))
     
 </div>
 
