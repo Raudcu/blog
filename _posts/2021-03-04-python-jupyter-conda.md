@@ -9,9 +9,6 @@ hide: false
 search_exclude: true
 categories: [python, jupyter, conda]
 ---
-# Installing Python + Jupyter with Conda
-> Setting up Python the right way
-
 ![header_img](https://raw.githubusercontent.com/Raudcu/blog/master/images/python-jupyter-conda/header_image.png)
 
 ## Overview
