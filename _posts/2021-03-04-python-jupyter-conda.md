@@ -30,7 +30,7 @@ Ok, let's start...
 
 ## Start coding fast
 
-![replit]("/home/lucas/Downloads/replit.png")
+![replit](https://raw.githubusercontent.com/Raudcu/blog/master/images/python-jupyter-conda/replit.png)
 
 Allow me just one last digression. If what you want is to start coding right now. The best option is to use an online tool like [repl.it](https://repl.it/). It's a really a fantastic site that allows you to code in a wide variety of languages, with dark mode, autocompletion and linting, among many other features, and execute the code right there. If your intention is to start as fast as possible, definitely give it a try. If not, let's .....
 
@@ -38,3 +38,8 @@ Allow me just one last digression. If what you want is to start coding right now
 ## Why not going directly with the installer?
 
 The short answer in the long term it will end messing up
+
+
+## Conda
+
+So the first step is to set up *Conda*. Conda is "an open-source, cross-platform, language-agnostic package manager and environment management system"
